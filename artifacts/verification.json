@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-11",
+  "core_configs_match": true,
+  "all_runs_completed": true,
+  "all_cases_scored": true,
+  "mechanical_violations": 0,
+  "api_key_scan": "passed; values not recorded",
+  "tests": {
+    "core": 42,
+    "bonus": 3
+  },
+  "sha256": {
+    "eval_before.json": "3ce75fd3f18798c3f474c6e8201f6c6bf0c4369eaea020749b95067d0747f44a",
+    "eval_after.json": "185b2f63c99b1e918ecc0569c6b4edc211afd5fd402c576e08d1da2282f5841d",
+    "eval_bonus.json": "deb01cae8d2a24836ac1d504ea40cdee9a4cc30bb3daea601c008bfe889b7829",
+    "agent.py": "e8ed61251e7b9052f75a2ec90a1605a2ed9c1baba3b6faeceef6b8da59a6c8b1",
+    "artifacts/agent_before.py": "ed8aea5f686df1a4dc0c922f99eed3a6776aee1cfe4b68f3342e217e0be8a3f6",
+    "evals/cases.json": "bca3ea31cb42dae5a952a7522bf87242b25117e565d1a5c3c636c18635abf50b",
+    "evals/scenarios.py": "193c39f8f82cdaa3c4f7b68715ddaf94cdae1f4f760bcc893ccaa42e84436a1f",
+    "evals/grading.py": "e64f759f933830800788f6d315768a1152214faefb947585a1ff9148e7761f25"
+  }
+}

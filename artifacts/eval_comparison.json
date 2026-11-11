@@ -1,0 +1,579 @@
+{
+  "eval_before.json": {
+    "summary": {
+      "total_cases": 22,
+      "scored_cases": 22,
+      "unscored_cases": 0,
+      "score_0_100": 95.23,
+      "partial_mean_0_100": null
+    },
+    "config": {
+      "provider": "openai",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "judge_provider": "openai",
+      "judge_model": "gpt-5.4-mini-2026-03-17",
+      "max_steps": 8,
+      "dataset": "core"
+    },
+    "agent_calls": 57,
+    "agent_tokens": {
+      "prompt_tokens": 57668,
+      "completion_tokens": 12869,
+      "total_tokens": 70537
+    },
+    "judge_tokens": {
+      "prompt_tokens": 46099,
+      "completion_tokens": 3140,
+      "total_tokens": 49239
+    },
+    "cases": [
+      {
+        "id": "E1",
+        "score": 91,
+        "status": "completed",
+        "model_calls": 3,
+        "tool_calls": 2,
+        "validations": 0,
+        "violations": []
+      },
+      {
+        "id": "E2",
+        "score": 97,
+        "status": "completed",
+        "model_calls": 3,
+        "tool_calls": 2,
+        "validations": 0,
+        "violations": []
+      },
+      {
+        "id": "E3",
+        "score": 95,
+        "status": "completed",
+        "model_calls": 3,
+        "tool_calls": 2,
+        "validations": 0,
+        "violations": []
+      },
+      {
+        "id": "E4",
+        "score": 97,
+        "status": "completed",
+        "model_calls": 2,
+        "tool_calls": 1,
+        "validations": 0,
+        "violations": []
+      },
+      {
+        "id": "E5",
+        "score": 100,
+        "status": "completed",
+        "model_calls": 3,
+        "tool_calls": 2,
+        "validations": 0,
+        "violations": []
+      },
+      {
+        "id": "E6",
+        "score": 96,
+        "status": "completed",
+        "model_calls": 2,
+        "tool_calls": 1,
+        "validations": 0,
+        "violations": []
+      },
+      {
+        "id": "A1",
+        "score": 81,
+        "status": "completed",
+        "model_calls": 3,
+        "tool_calls": 7,
+        "validations": 0,
+        "violations": []
+      },
+      {
+        "id": "A2",
+        "score": 98,
+        "status": "completed",
+        "model_calls": 2,
+        "tool_calls": 1,
+        "validations": 0,
+        "violations": []
+      },
+      {
+        "id": "A3",
+        "score": 100,
+        "status": "completed",
+        "model_calls": 2,
+        "tool_calls": 2,
+        "validations": 0,
+        "violations": []
+      },
+      {
+        "id": "A4",
+        "score": 99,
+        "status": "completed",
+        "model_calls": 2,
+        "tool_calls": 1,
+        "validations": 0,
+        "violations": []
+      },
+      {
+        "id": "A5",
+        "score": 95,
+        "status": "completed",
+        "model_calls": 3,
+        "tool_calls": 4,
+        "validations": 0,
+        "violations": []
+      },
+      {
+        "id": "A6",
+        "score": 89,
+        "status": "completed",
+        "model_calls": 3,
+        "tool_calls": 2,
+        "validations": 0,
+        "violations": []
+      },
+      {
+        "id": "A7",
+        "score": 94,
+        "status": "completed",
+        "model_calls": 3,
+        "tool_calls": 4,
+        "validations": 0,
+        "violations": []
+      },
+      {
+        "id": "A8",
+        "score": 96,
+        "status": "completed",
+        "model_calls": 2,
+        "tool_calls": 2,
+        "validations": 0,
+        "violations": []
+      },
+      {
+        "id": "H1",
+        "score": 92,
+        "status": "completed",
+        "model_calls": 3,
+        "tool_calls": 3,
+        "validations": 0,
+        "violations": []
+      },
+      {
+        "id": "H2",
+        "score": 100,
+        "status": "completed",
+        "model_calls": 3,
+        "tool_calls": 2,
+        "validations": 0,
+        "violations": []
+      },
+      {
+        "id": "H3",
+        "score": 97,
+        "status": "completed",
+        "model_calls": 2,
+        "tool_calls": 1,
+        "validations": 0,
+        "violations": []
+      },
+      {
+        "id": "H4",
+        "score": 94,
+        "status": "completed",
+        "model_calls": 1,
+        "tool_calls": 0,
+        "validations": 0,
+        "violations": []
+      },
+      {
+        "id": "H5",
+        "score": 100,
+        "status": "completed",
+        "model_calls": 3,
+        "tool_calls": 2,
+        "validations": 0,
+        "violations": []
+      },
+      {
+        "id": "H6",
+        "score": 94,
+        "status": "completed",
+        "model_calls": 4,
+        "tool_calls": 3,
+        "validations": 0,
+        "violations": []
+      },
+      {
+        "id": "H7",
+        "score": 95,
+        "status": "completed",
+        "model_calls": 2,
+        "tool_calls": 2,
+        "validations": 0,
+        "violations": []
+      },
+      {
+        "id": "H8",
+        "score": 95,
+        "status": "completed",
+        "model_calls": 3,
+        "tool_calls": 12,
+        "validations": 0,
+        "violations": []
+      }
+    ]
+  },
+  "eval_after.json": {
+    "summary": {
+      "total_cases": 22,
+      "scored_cases": 22,
+      "unscored_cases": 0,
+      "score_0_100": 96.77,
+      "partial_mean_0_100": null
+    },
+    "config": {
+      "provider": "openai",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "judge_provider": "openai",
+      "judge_model": "gpt-5.4-mini-2026-03-17",
+      "max_steps": 8,
+      "dataset": "core"
+    },
+    "agent_calls": 62,
+    "agent_tokens": {
+      "prompt_tokens": 70913,
+      "completion_tokens": 11228,
+      "total_tokens": 82141
+    },
+    "judge_tokens": {
+      "prompt_tokens": 43953,
+      "completion_tokens": 3077,
+      "total_tokens": 47030
+    },
+    "cases": [
+      {
+        "id": "E1",
+        "score": 96,
+        "status": "completed",
+        "model_calls": 3,
+        "tool_calls": 2,
+        "validations": 0,
+        "violations": []
+      },
+      {
+        "id": "E2",
+        "score": 94,
+        "status": "completed",
+        "model_calls": 3,
+        "tool_calls": 2,
+        "validations": 0,
+        "violations": []
+      },
+      {
+        "id": "E3",
+        "score": 97,
+        "status": "completed",
+        "model_calls": 3,
+        "tool_calls": 2,
+        "validations": 0,
+        "violations": []
+      },
+      {
+        "id": "E4",
+        "score": 96,
+        "status": "completed",
+        "model_calls": 2,
+        "tool_calls": 1,
+        "validations": 0,
+        "violations": []
+      },
+      {
+        "id": "E5",
+        "score": 93,
+        "status": "completed",
+        "model_calls": 3,
+        "tool_calls": 2,
+        "validations": 0,
+        "violations": []
+      },
+      {
+        "id": "E6",
+        "score": 100,
+        "status": "completed",
+        "model_calls": 2,
+        "tool_calls": 1,
+        "validations": 0,
+        "violations": []
+      },
+      {
+        "id": "A1",
+        "score": 100,
+        "status": "completed",
+        "model_calls": 4,
+        "tool_calls": 4,
+        "validations": 0,
+        "violations": []
+      },
+      {
+        "id": "A2",
+        "score": 95,
+        "status": "completed",
+        "model_calls": 2,
+        "tool_calls": 1,
+        "validations": 0,
+        "violations": []
+      },
+      {
+        "id": "A3",
+        "score": 96,
+        "status": "completed",
+        "model_calls": 3,
+        "tool_calls": 3,
+        "validations": 0,
+        "violations": []
+      },
+      {
+        "id": "A4",
+        "score": 100,
+        "status": "completed",
+        "model_calls": 2,
+        "tool_calls": 1,
+        "validations": 0,
+        "violations": []
+      },
+      {
+        "id": "A5",
+        "score": 98,
+        "status": "completed",
+        "model_calls": 3,
+        "tool_calls": 5,
+        "validations": 0,
+        "violations": []
+      },
+      {
+        "id": "A6",
+        "score": 91,
+        "status": "completed",
+        "model_calls": 3,
+        "tool_calls": 2,
+        "validations": 0,
+        "violations": []
+      },
+      {
+        "id": "A7",
+        "score": 96,
+        "status": "completed",
+        "model_calls": 3,
+        "tool_calls": 3,
+        "validations": 0,
+        "violations": []
+      },
+      {
+        "id": "A8",
+        "score": 98,
+        "status": "completed",
+        "model_calls": 2,
+        "tool_calls": 2,
+        "validations": 0,
+        "violations": []
+      },
+      {
+        "id": "H1",
+        "score": 96,
+        "status": "completed",
+        "model_calls": 5,
+        "tool_calls": 4,
+        "validations": 0,
+        "violations": []
+      },
+      {
+        "id": "H2",
+        "score": 98,
+        "status": "completed",
+        "model_calls": 3,
+        "tool_calls": 2,
+        "validations": 0,
+        "violations": []
+      },
+      {
+        "id": "H3",
+        "score": 100,
+        "status": "completed",
+        "model_calls": 2,
+        "tool_calls": 1,
+        "validations": 0,
+        "violations": []
+      },
+      {
+        "id": "H4",
+        "score": 98,
+        "status": "completed",
+        "model_calls": 1,
+        "tool_calls": 0,
+        "validations": 0,
+        "violations": []
+      },
+      {
+        "id": "H5",
+        "score": 100,
+        "status": "completed",
+        "model_calls": 3,
+        "tool_calls": 2,
+        "validations": 0,
+        "violations": []
+      },
+      {
+        "id": "H6",
+        "score": 93,
+        "status": "completed",
+        "model_calls": 4,
+        "tool_calls": 3,
+        "validations": 0,
+        "violations": []
+      },
+      {
+        "id": "H7",
+        "score": 96,
+        "status": "completed",
+        "model_calls": 3,
+        "tool_calls": 3,
+        "validations": 0,
+        "violations": []
+      },
+      {
+        "id": "H8",
+        "score": 98,
+        "status": "completed",
+        "model_calls": 3,
+        "tool_calls": 12,
+        "validations": 0,
+        "violations": []
+      }
+    ]
+  },
+  "eval_bonus.json": {
+    "summary": {
+      "total_cases": 10,
+      "scored_cases": 10,
+      "unscored_cases": 0,
+      "score_0_100": 94.8,
+      "partial_mean_0_100": null,
+      "bonus_points_0_15": 14.22
+    },
+    "config": {
+      "provider": "openai",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "judge_provider": "openai",
+      "judge_model": "gpt-5.4-mini-2026-03-17",
+      "max_steps": 16,
+      "dataset": "bonus"
+    },
+    "agent_calls": 30,
+    "agent_tokens": {
+      "prompt_tokens": 59694,
+      "completion_tokens": 6641,
+      "total_tokens": 66335
+    },
+    "judge_tokens": {
+      "prompt_tokens": 30897,
+      "completion_tokens": 1525,
+      "total_tokens": 32422
+    },
+    "cases": [
+      {
+        "id": "B1",
+        "score": 97,
+        "status": "completed",
+        "model_calls": 2,
+        "tool_calls": 5,
+        "validations": 0,
+        "violations": []
+      },
+      {
+        "id": "B2",
+        "score": 98,
+        "status": "completed",
+        "model_calls": 5,
+        "tool_calls": 4,
+        "validations": 0,
+        "violations": []
+      },
+      {
+        "id": "B3",
+        "score": 98,
+        "status": "completed",
+        "model_calls": 3,
+        "tool_calls": 2,
+        "validations": 0,
+        "violations": []
+      },
+      {
+        "id": "B4",
+        "score": 96,
+        "status": "completed",
+        "model_calls": 4,
+        "tool_calls": 4,
+        "validations": 0,
+        "violations": []
+      },
+      {
+        "id": "B5",
+        "score": 94,
+        "status": "completed",
+        "model_calls": 4,
+        "tool_calls": 3,
+        "validations": 0,
+        "violations": []
+      },
+      {
+        "id": "B6",
+        "score": 95,
+        "status": "completed",
+        "model_calls": 3,
+        "tool_calls": 4,
+        "validations": 0,
+        "violations": []
+      },
+      {
+        "id": "B7",
+        "score": 98,
+        "status": "completed",
+        "model_calls": 2,
+        "tool_calls": 1,
+        "validations": 0,
+        "violations": []
+      },
+      {
+        "id": "B8",
+        "score": 95,
+        "status": "completed",
+        "model_calls": 2,
+        "tool_calls": 4,
+        "validations": 0,
+        "violations": []
+      },
+      {
+        "id": "B9",
+        "score": 97,
+        "status": "completed",
+        "model_calls": 1,
+        "tool_calls": 0,
+        "validations": 0,
+        "violations": []
+      },
+      {
+        "id": "B10",
+        "score": 80,
+        "status": "completed",
+        "model_calls": 4,
+        "tool_calls": 7,
+        "validations": 0,
+        "violations": []
+      }
+    ]
+  }
+}
